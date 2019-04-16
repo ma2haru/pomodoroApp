@@ -6,27 +6,27 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PomodoroTimer/AppDelegate.swift"
-            timestampString = "568463830.285833"
+            timestampString = "574089002.06349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
             landmarkName = "AppDelegate"
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "PomodoroTimer.AppDelegate.window.getter : Swift.Optional&lt;__C.UIWindow&gt;"
                   moduleName = "PomodoroTimer"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/miharu/Documents/workspace/PomodoroTimer/PomodoroTimer/PomodoroTimer/AppDelegate.swift"
-                  timestampString = "568354961.335616"
+                  timestampString = "573219172.0506769"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -34,14 +34,14 @@
                   offsetFromSymbolStart = "114">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "PomodoroTimer.AppDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
                   moduleName = "PomodoroTimer"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/miharu/Documents/workspace/PomodoroTimer/PomodoroTimer/PomodoroTimer/AppDelegate.swift"
-                  timestampString = "568354961.4801919"
+                  timestampString = "573219172.0890419"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -49,14 +49,14 @@
                   offsetFromSymbolStart = "128">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "PomodoroTimer.AppDelegate.init() -&gt; PomodoroTimer.AppDelegate"
                   moduleName = "PomodoroTimer"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/miharu/Documents/workspace/PomodoroTimer/PomodoroTimer/PomodoroTimer/AppDelegate.swift"
-                  timestampString = "568354961.4840339"
+                  timestampString = "573219172.094034"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -64,22 +64,6 @@
                   offsetFromSymbolStart = "23">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PomodoroTimer/ViewController.swift"
-            timestampString = "571420505.569667"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "updateTimer()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

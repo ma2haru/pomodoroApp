@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2825FEAD222D4DA100F2C16A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825FEAC222D4DA100F2C16A /* HistoryViewController.swift */; };
+		285B8CF922281F2600BC8CB1 /* DoHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B8CF822281F2600BC8CB1 /* DoHistory.swift */; };
 		285F146B221EF7DC00BE4CB5 /* menu-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 285F146A221EF7DB00BE4CB5 /* menu-filled.png */; };
 		285F146D221F028200BE4CB5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285F146C221F028100BE4CB5 /* MenuViewController.swift */; };
 		28FA071E21D2814700E1A891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA071D21D2814700E1A891 /* AppDelegate.swift */; };
@@ -16,6 +18,7 @@
 		28FA072821D2815300E1A891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FA072721D2815300E1A891 /* Assets.xcassets */; };
 		28FA073621D2815300E1A891 /* PomodoroTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA073521D2815300E1A891 /* PomodoroTimerTests.swift */; };
 		28FA074121D2815300E1A891 /* PomodoroTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA074021D2815300E1A891 /* PomodoroTimerUITests.swift */; };
+		30AF092ED9BD8F555EBC7E7A /* Pods_PomodoroTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB979CE5FBE8543D19D5012E /* Pods_PomodoroTimer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2825FEAC222D4DA100F2C16A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		285B8CF822281F2600BC8CB1 /* DoHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoHistory.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		285F146A221EF7DB00BE4CB5 /* menu-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-filled.png"; sourceTree = "<group>"; };
 		285F146C221F028100BE4CB5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		28FA071A21D2814700E1A891 /* PomodoroTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +56,9 @@
 		28FA073C21D2815300E1A891 /* PomodoroTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FA074021D2815300E1A891 /* PomodoroTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerUITests.swift; sourceTree = "<group>"; };
 		28FA074221D2815300E1A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415F0B748E459594BDDCCC49 /* Pods-PomodoroTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroTimer.release.xcconfig"; path = "Target Support Files/Pods-PomodoroTimer/Pods-PomodoroTimer.release.xcconfig"; sourceTree = "<group>"; };
+		928F9E8C22D7BCFD07805C66 /* Pods-PomodoroTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroTimer.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroTimer/Pods-PomodoroTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		DB979CE5FBE8543D19D5012E /* Pods_PomodoroTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AF092ED9BD8F555EBC7E7A /* Pods_PomodoroTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 				28FA073421D2815300E1A891 /* PomodoroTimerTests */,
 				28FA073F21D2815300E1A891 /* PomodoroTimerUITests */,
 				28FA071B21D2814700E1A891 /* Products */,
+				F27D077C1EC20B24C9B1A2D8 /* Pods */,
+				95E8F00E8A1206E8FADC3F65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +115,13 @@
 				28FA071D21D2814700E1A891 /* AppDelegate.swift */,
 				28FA071F21D2814700E1A891 /* ViewController.swift */,
 				285F146C221F028100BE4CB5 /* MenuViewController.swift */,
+				2825FEAC222D4DA100F2C16A /* HistoryViewController.swift */,
 				28FA072121D2814700E1A891 /* Main.storyboard */,
 				28FA072721D2815300E1A891 /* Assets.xcassets */,
 				285F146A221EF7DB00BE4CB5 /* menu-filled.png */,
 				28FA072C21D2815300E1A891 /* Info.plist */,
 				28FA072421D2814700E1A891 /* PomodoroTimer.xcdatamodeld */,
+				285B8CF822281F2600BC8CB1 /* DoHistory.swift */,
 			);
 			path = PomodoroTimer;
 			sourceTree = "<group>";
@@ -131,6 +144,23 @@
 			path = PomodoroTimerUITests;
 			sourceTree = "<group>";
 		};
+		95E8F00E8A1206E8FADC3F65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB979CE5FBE8543D19D5012E /* Pods_PomodoroTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27D077C1EC20B24C9B1A2D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				928F9E8C22D7BCFD07805C66 /* Pods-PomodoroTimer.debug.xcconfig */,
+				415F0B748E459594BDDCCC49 /* Pods-PomodoroTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28FA074521D2815300E1A891 /* Build configuration list for PBXNativeTarget "PomodoroTimer" */;
 			buildPhases = (
+				28E9BA9F5FD3C65776626A9E /* [CP] Check Pods Manifest.lock */,
 				28FA071621D2814700E1A891 /* Sources */,
 				28FA071721D2814700E1A891 /* Frameworks */,
 				28FA071821D2814700E1A891 /* Resources */,
+				E3DF33B559A2CB25B0E6C750 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,13 +289,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28E9BA9F5FD3C65776626A9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DF33B559A2CB25B0E6C750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PomodoroTimer/Pods-PomodoroTimer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PomodoroTimer/Pods-PomodoroTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28FA071621D2814700E1A891 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28FA072021D2814700E1A891 /* ViewController.swift in Sources */,
+				285B8CF922281F2600BC8CB1 /* DoHistory.swift in Sources */,
 				28FA072621D2814700E1A891 /* PomodoroTimer.xcdatamodeld in Sources */,
+				2825FEAD222D4DA100F2C16A /* HistoryViewController.swift in Sources */,
 				28FA071E21D2814700E1A891 /* AppDelegate.swift in Sources */,
 				285F146D221F028200BE4CB5 /* MenuViewController.swift in Sources */,
 			);
@@ -430,6 +513,7 @@
 		};
 		28FA074621D2815300E1A891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928F9E8C22D7BCFD07805C66 /* Pods-PomodoroTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +532,7 @@
 		};
 		28FA074721D2815300E1A891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415F0B748E459594BDDCCC49 /* Pods-PomodoroTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

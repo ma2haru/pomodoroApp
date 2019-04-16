@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import RealmSwift
 
 class ViewController: UIViewController {
 
@@ -27,6 +28,8 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
+    @IBAction func backToTop(segue: UIStoryboardSegue) {
+    }
     
     @IBAction func startTimer(_ sender: Any) {
         if !timer.isValid {
@@ -38,6 +41,16 @@ class ViewController: UIViewController {
             time.text = "集中時間"
             time.backgroundColor = UIColor(red: 0, green: 122 / 255, blue: 1, alpha: 1)
         } else if self.startButton.currentTitle == "Stop" {
+            //データベース
+            let doHistory = DoHistory()
+            let doTime = 30 * 60 - count
+            let minite = doTime / 60
+            var second = ""
+            if doTime % 60 < 10 {
+                second = "0" + String(doTime % 60)
+            }
+            doHistory.save(title: todoText.text!, doTime: String(minite) + ":" + second)
+            
             timer.invalidate()
             count = 30 * 60
             miniteLabel.text = String(30)
@@ -49,6 +62,9 @@ class ViewController: UIViewController {
     
     @objc private func updateTimer() {
         if count == 0 {
+            //データベース
+            let doHistory = DoHistory()
+            doHistory.save(title: todoText.text!, doTime: "30:00")
             
             timer.invalidate()
             count = 30 * 60
@@ -61,8 +77,8 @@ class ViewController: UIViewController {
         } else {
             count -= 1
         }
-        var miniteCount = count / 60
-        var secondCount = count % 60
+        let miniteCount = count / 60
+        let secondCount = count % 60
         
         if miniteCount < 10 {
             miniteLabel.text = "0" + String(miniteCount)
